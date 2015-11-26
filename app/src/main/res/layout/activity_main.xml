@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zorx="http://schemas.android.com/apk/res/cn.nbut.mytopbar"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <cn.nbut.mytopbar.view.Topbar
+        android:id="@+id/mytopbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        zorx:leftTextColor="#FFFFFF"
+        zorx:leftText="Back"
+        zorx:leftBackground="#FFA4C161"
+        zorx:rightTextColor="#FFFFFF"
+        zorx:rightText="More"
+        zorx:rightBackground="#FFA4C161"
+        zorx:titleTextSize="15sp"
+        zorx:titleTextColor="#000000"
+        zorx:toptitle="自定义模板" >
+    </cn.nbut.mytopbar.view.Topbar>
+
+</RelativeLayout>
